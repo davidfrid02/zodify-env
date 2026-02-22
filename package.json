@@ -12,6 +12,11 @@
         "dev": "tsup src/index.ts --format esm --watch",
         "start": "node dist/index.js"
     },
+    "homepage": "https://github.com/davidfrid02/zodify-env#readme",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/davidfrid02/zodify-env.git"
+    },
     "keywords": [
         "zod",
         "env",
@@ -19,7 +24,7 @@
         "typescript",
         "generator"
     ],
-    "author": "Your Name",
+    "author": "David Fried",
     "license": "MIT",
     "devDependencies": {
         "@types/node": "^20.19.33",
